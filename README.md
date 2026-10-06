@@ -3,7 +3,9 @@ Power shell script for mass changing background images in maps directory for osu
 This script replaces all images inside each map folder with the same randomly chosen image from source folder.
 
 # How to use
-First you have to create a folder and add some images which will replace old backgrounds. Name it as you like, in my example below it named Backgrounds.
+First you have to create a folder and add some images which will replace old backgrounds. Name it as you like, in my example below it named Backgrounds.  
+If you want to be able to revert changes made after running this script, you should first make a backup for your osu! Songs folder and run script after that, because this script replaces backgrounds without the possibility to revert changes made.  
+So if you want to keep a copy of old backgrounds, you should copy all the Songs folder somewhere out of osu! folder.
 
 After adding enough images to new images folder open script in text editor and put paths to your new images folder and path where your osu! maps are located.
 
